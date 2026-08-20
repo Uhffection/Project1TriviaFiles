@@ -64,39 +64,58 @@ ul {
   border: outset 15px rgba(0, 0, 0, 0.7);
 }
 
+.btn {
+  margin-top: 2em;
+  padding: 1.3em;
+  size:    
+}
+
 #options {
   color: white;
   background-color: rgba(0, 0, 0, 0.88);
   transition: border 0.5s ease, background-color 0.5s ease;
-  padding-top: 0;
+  padding-top: 0 ;
 }
 
 #options:hover {
   background-color: rgba(0, 0, 0, 0.4);
 }
 
+#optText {
+  padding-top: 25%;
+}
+
 #question {
   color: white;
   background-color: rgba(0, 0, 0, 0.7);
   transition: border 0.5s ease, background-color 0.5s ease;
-  padding-top: 0;
+  padding-top: 3.05em;
 }
 
 #question:hover {
   background-color: rgba(13, 114, 168, 0.9);
 }
 
-#answer {
+#answerColumn {
   color: white;
   background-color: rgba(0, 0, 0, 0.5);
   transition: border 0.5s ease, background-color 0.5s ease;
-  padding-top: 4.5em;
+  padding-top: 3em;
   border: outset 8px rgba(0, 0, 0, 0.93);
 }
 
-#answer:hover {
+#answerColumn:hover {
   background-color: rgba(22, 98, 219, 0.9);
   border: outset 15px rgba(0, 0, 0, 0.5);
+}
+
+#answer {
+  display: none;
+  padding-top: 7em;
+}
+
+#answerStatus {
+  padding-top: 1em;
 }
 
 #aryusmart-title {
@@ -106,8 +125,8 @@ ul {
   color: white;
 }
 
-#returnbtn {
-  margin-top: 25em;
+#returnBtn {
+  margin-top: 28em;
   font-size: 1em;
   border: outset 5px rgba(0, 0, 0, 0.7);
   background-color: rgba(0, 0, 0, 0.1);
@@ -116,7 +135,7 @@ ul {
   padding-left: 0.2em;
 }
 
-#returnbtn:hover {
+#returnBtn:hover {
   font-size: 0.95em;
   border: inset 10px rgba(80,0,255,0.5);
   border-radius: 25px;

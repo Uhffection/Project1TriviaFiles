@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>HTML Trivia</title>
+  <script src = "script.js"></script>
   <link href="style2.css" rel="stylesheet" type="text/css" />
 </head>
 
@@ -16,28 +17,30 @@
     <header>
       <h1 id = "aryusmart-title">Aryusmart Trivia</h1>
     </header>
-      <h2>Options</h2>
-      <button type = "button" class = "btn">Show Answer</button>
-      <button type = "button" class = "btn">Hide Answer</button>
+      <h2 id = "optText">Options</h2>
+      <button type = "button" id = "showAnswerbtn" class = "btn">Show Answer</button>
+      <button type = "button" id ="hideAnswerbtn" class = "btn">Hide Answer</button>
+      <h2 id = "answerStatus">Answer is currently hidden!</h2>
+  
+  
   </div>
 
 
   
   <div id = "question" class = "grid-column">
     <h1>Question</h1>
-    <div id = "returnbtn">
+    <div id = "returnBtn">
       <h3><a href = "index.html">Back to Categories</a></h3>
     </div>
   </div>
 
-  <div id = "answer" class = "grid-column">
-    <h1>Your Answer?</h1>
+  <div id = "answerColumn" class = "grid-column">
+    <h1>The Answer?</h1>
+    <h2 id = "answer">Answer will show here.</h2>
   </div>
 
 </div>
   
-  
-  <script src="script.js"></script>
 </body>
 
 </html>
