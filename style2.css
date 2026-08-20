@@ -66,8 +66,7 @@ ul {
 
 .btn {
   margin-top: 2em;
-  padding: 1.3em;
-  size:    
+  padding: 1.3em;   
 }
 
 #options {
@@ -111,7 +110,7 @@ ul {
 
 #answer {
   display: none;
-  padding-top: 7em;
+  padding-top: 9em;
 }
 
 #answerStatus {
