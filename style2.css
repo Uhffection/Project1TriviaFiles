@@ -15,33 +15,6 @@ a:active {
   color: inherit;
 }
 
-li {
-  color: white;
-  font-size: 1em;
-  border: outset 5px rgba(0, 0, 0, 0.8);
-  background-color: rgba(22, 98, 219, 0.3);
-  transition: font-size 0.3s ease, border 0.5s ease, background-color 0.5s ease, border-radius 0.5s ease;
-  padding-right: 0.2em;
-  padding-left: 0.2em;
-}
-
-li:hover {
-  font-size: 0.95em;
-  border: inset 10px rgba(0, 0, 0, 0.9);
-  border-radius: 25px;
-  background-color: rgba(70,0,255,0.4);
-}
-
-ul {
-  list-style-type: none;
-  margin-right: 1.6em;
-}
-
-.teaser {
-  margin: 50px;
-  font-style: italic;
-}
-
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -66,14 +39,16 @@ ul {
 
 .btn {
   margin-top: 2em;
-  padding: 1.3em;   
+  padding: 1.3em;  
+  background-color: blue;
+  font-size: 1em;
+  font-weight: 800;
 }
 
 #options {
   color: white;
   background-color: rgba(0, 0, 0, 0.88);
   transition: border 0.5s ease, background-color 0.5s ease;
-  padding-top: 0 ;
 }
 
 #options:hover {
@@ -84,18 +59,22 @@ ul {
   padding-top: 25%;
 }
 
-#question {
+#questionText {
   color: white;
   background-color: rgba(0, 0, 0, 0.7);
   transition: border 0.5s ease, background-color 0.5s ease;
   padding-top: 3.05em;
 }
 
-#question:hover {
+#questionText:hover {
   background-color: rgba(13, 114, 168, 0.9);
 }
 
-#answerColumn {
+#question {
+  padding-top: 11em;
+}
+
+#answerText {
   color: white;
   background-color: rgba(0, 0, 0, 0.5);
   transition: border 0.5s ease, background-color 0.5s ease;
@@ -103,7 +82,7 @@ ul {
   border: outset 8px rgba(0, 0, 0, 0.93);
 }
 
-#answerColumn:hover {
+#answerText:hover {
   background-color: rgba(22, 98, 219, 0.9);
   border: outset 15px rgba(0, 0, 0, 0.5);
 }
@@ -125,7 +104,7 @@ ul {
 }
 
 #returnBtn {
-  margin-top: 28em;
+  margin-top: 12em;
   font-size: 1em;
   border: outset 5px rgba(0, 0, 0, 0.7);
   background-color: rgba(0, 0, 0, 0.1);
