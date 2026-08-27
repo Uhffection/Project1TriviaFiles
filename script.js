@@ -4,7 +4,11 @@ const hideBtn = document.getElementById('hideAnswerbtn');
 
 const answerText = document.getElementById('answer');
 
+const questionText = document.getElementById('question');
+
 const ansStatus = document.getElementById('answerStatus');
+
+
 
 function showAnswer() {
 	
@@ -20,6 +24,12 @@ function hideAnswer() {
 
 }
 
+function populateQuestion(question,answer) {
+  questionText.textContent = question;
+  answerText.textContent = answer;
+}
+
+populateQuestion("what is 2 + 2", "4");
+
 showBtn.addEventListener('click', showAnswer);
 hideBtn.addEventListener('click', hideAnswer);
-  
