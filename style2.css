@@ -74,7 +74,7 @@ a:active {
 }
 
 #question {
-  padding-top: 11em;
+  padding-top: 1em;
 }
 
 #answerText {
@@ -92,7 +92,7 @@ a:active {
 
 #answer {
   display: none;
-  padding-top: 9em;
+  padding-top: 1em;
 }
 
 #answerStatus {
