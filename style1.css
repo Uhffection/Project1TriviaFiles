@@ -104,4 +104,9 @@ ul {
   padding-bottom: 0.4em;
   font-size: 50px;
   color: white;
+  background-color: rgba(117, 112, 112, 0.774);
+  border: solid 5px rgba(64, 63, 66, 0.849);
+  border-radius: 10px;
 }
+
+
