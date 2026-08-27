@@ -100,7 +100,9 @@ ul {
 }
 
 #aryusmart-title {
-  padding-top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding-bottom: 0.4em;
   font-size: 50px;
   color: white;
