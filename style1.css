@@ -68,7 +68,7 @@ ul {
   color: white;
   background-color: rgba(0, 0, 0, 0.88);
   transition: border 0.5s ease, background-color 0.5s ease;
-  padding-top: 6rem;
+  padding-top: 8rem;
 }
 
 #description:hover {
@@ -90,7 +90,7 @@ ul {
   color: white;
   background-color: rgba(0, 0, 0, 0.5);
   transition: border 0.5s ease, background-color 0.5s ease;
-  padding-top: 18rem;
+  padding-top: 20rem;
   border: outset 8px rgba(0, 0, 0, 0.93);
 }
 
