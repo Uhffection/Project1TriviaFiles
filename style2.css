@@ -53,7 +53,7 @@ a:active {
   color: rgba(0, 255, 13, 0.932);
   background-color: rgb(0, 0, 0);
   transition: border 0.5s ease, background-color 0.5s ease;
-  padding-top: 9rem;
+  padding-top: 8.3rem;
   font-family: 'Courier New', Courier, monospace;
 }
 
@@ -62,7 +62,17 @@ a:active {
 }
 
 #optText {
-  padding-top: 25%;
+  padding-top: 1em;
+}
+
+#questionTitle {
+  padding-top: 0.2em;
+  padding-right: 0.2em;
+  padding-bottom: 0.2em;
+  padding-left: 0.2em;
+  background-color: rgba(92, 92, 92, 0.466);
+  border: solid 5.8px rgba(116, 116, 116, 0.849);
+  border-radius: 10px;
 }
 
 #questionText {
@@ -86,11 +96,21 @@ a:active {
   background-color: rgba(90,90,90,0.6);
 }
 
+#answerTitle {
+  padding-top: 0.2em;
+  padding-right: 0.2em;
+  padding-bottom: 0.2em;
+  padding-left: 0.2em;
+  background-color: rgba(92, 92, 92, 0.466);
+  border: solid 5.8px rgba(116, 116, 116, 0.849);
+  border-radius: 10px;
+}
+
 #answerText {
   color: rgba(0, 255, 13, 0.932);
   background-color: rgb(0, 0, 0);
   transition: border 0.5s ease, background-color 0.5s ease;
-  padding-top: 22rem;
+  padding-top: 9rem;
   font-family: 'Courier New', Courier, monospace;
 }
 
@@ -101,7 +121,7 @@ a:active {
 
 #answer {
   display: none;
-  padding-top: 1em;
+  padding-top: 8em;
 }
 
 #answerStatus {
