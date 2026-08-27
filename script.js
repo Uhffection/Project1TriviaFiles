@@ -26,10 +26,10 @@ function hideAnswer() {
 
 function populateQuestion(question,answer) {
   questionText.textContent = question;
-  answerText.textContent = "The answer is " + answer + ".";
+  answerText.textContent = "The answer is " + answer + "!";
 }
 
-populateQuestion("what is 2 + 2?", "4");
+populateQuestion("What is 2 + 2?", "4");
 
 showBtn.addEventListener('click', showAnswer);
 hideBtn.addEventListener('click', hideAnswer);
