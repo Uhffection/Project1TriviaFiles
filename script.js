@@ -1,3 +1,8 @@
+const requestAPIurl = "https://opentdb.com/api.php?amount=10";
+
+fetch(requestAPIurl)
+    .then
+
 const showBtn = document.getElementById('showAnswerbtn');
 const hideBtn = document.getElementById('hideAnswerbtn');
 const answerText = document.getElementById('answer');
@@ -11,6 +16,44 @@ let questionBank = [
   }
 ];
 let questionIndex = 0;
+
+function storeNewQuestions(data) {
+
+}
+
+async function getQuestionRandom() {
+
+}
+
+function getNextQuestion() {
+
+}
+
+function appendCategory(categoryObject, categoriesDiv) {
+
+}
+
+function appendAllCategoriesToHTML(categories) {
+
+}
+
+async function getCategories() {
+
+}
+
+getCategories();
+
+async function getQuestionsByCategory(categoryID) {
+
+}
+
+function highlightCategoryButton(categoryID) {
+
+}
+
+function handleCategoryClick(e) {
+
+}
 
 
 
