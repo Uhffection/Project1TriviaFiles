@@ -1,12 +1,16 @@
 const showBtn = document.getElementById('showAnswerbtn');
-
 const hideBtn = document.getElementById('hideAnswerbtn');
-
 const answerText = document.getElementById('answer');
-
 const questionText = document.getElementById('question');
-
 const ansStatus = document.getElementById('answerStatus');
+let categoryID = null;
+let questionBank = [
+  {
+    question: 'State whose license plate reads "Land of 10,000 Lakes".',
+    answer: "Minnesota"
+  }
+];
+let questionIndex = 0;
 
 
 
@@ -29,7 +33,7 @@ function populateQuestion(question,answer) {
   answerText.textContent = "The answer is " + answer + "!";
 }
 
-populateQuestion("What is 2 + 2?", "4");
+populateQuestion(questionBank[0].question,questionBank[0].answer);
 
 showBtn.addEventListener('click', showAnswer);
 hideBtn.addEventListener('click', hideAnswer);
