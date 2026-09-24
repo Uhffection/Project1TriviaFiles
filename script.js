@@ -1,8 +1,5 @@
 const requestAPIurl = "https://opentdb.com/api.php?amount=10";
 
-fetch(requestAPIurl)
-    .then
-
 const showBtn = document.getElementById('showAnswerbtn');
 const hideBtn = document.getElementById('hideAnswerbtn');
 const answerText = document.getElementById('answer');
